@@ -11,7 +11,7 @@ describe('Comparacion de numeros', () => {
 	});
 
 	test('Menor que', () => {
-		expect(numbers(2,2)).toBeLessThan(1);
+		expect(numbers(2,2)).toBeLessThan(5);
 	});
 
 	test('Menor o igual que', () => {
