@@ -16,6 +16,14 @@ describe('Probando Promesas', () => {
 
         done(); //Para cuando todo este correcto, se pueda establecer que ya termino la peticion, y ahora si haga la comprobacion
         // que necesite hacer Jest
-      })
+      });
+  });
+
+test('Resuelve un hola!', () => {
+    return expect(Promise.resolve('Hola!')).resolves.toBe('Hola!');
+  });
+
+test('Rechaza con un error', () => {
+    return expect(Promise.reject('Error')).rejects.toBe('Error');
   });
 });
