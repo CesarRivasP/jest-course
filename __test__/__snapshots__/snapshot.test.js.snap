@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Its time for Snapshots Siempre fallara la instantanea 1`] = `
+Object {
+  "gender": undefined,
+  "id": 0,
+  "name": undefined,
+  "species": undefined,
+  "status": undefined,
+}
+`;
+
+exports[`Its time for Snapshots Snapshot 1`] = `
+Object {
+  "gender": "Mal",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "Human",
+  "status": "Alive",
+}
+`;
+
+exports[`Its time for Snapshots Tenemos una excepcion de un valor dentro del codigo 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "Cesar Rivas",
+}
+`;
