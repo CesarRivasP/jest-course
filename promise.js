@@ -4,7 +4,7 @@ import fetch from 'cross-fetch';
 export const getDataFromApi = (url) => {
   return axios.get(url)
     .then(({ data }) => data)
-    .catch((error) => console.log(error))
+    // .catch((error) => console.log(error))
 }
 
 export const getDataFromApiWithFetch = (url) => {
